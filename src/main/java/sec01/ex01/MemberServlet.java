@@ -65,7 +65,7 @@ public class MemberServlet extends HttpServlet {
 			 //멤버 객체에 저장
 			 MemberVO vo=new MemberVO();
 			 vo.setId(_id);
-			 vo.setId(_id);
+			 
 			 vo.setPwd(_pwd);
 			 vo.setName(_name);
 			 vo.setEmail(_email);
